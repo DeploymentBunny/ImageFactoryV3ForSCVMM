@@ -1,0 +1,21 @@
+﻿<Settings>
+ <Common>
+  <StartUpRAM>4</StartUpRAM>
+  <VLANID>30</VLANID>
+  <ConcurrentRunningVMs>2</ConcurrentRunningVMs>
+ </Common>
+ <MDT>
+  <DeploymentShare>\\SERVER\MDTBuild$</DeploymentShare>
+  <RefTaskSequenceFolder>MDT:\Task Sequences\REF</RefTaskSequenceFolder>
+ </MDT>
+ <SCVMM>
+  <SCVMMServer>SCVMM01</SCVMMServer>
+  <SCLibraryShare>MSSCVMMLibrary</SCLibraryShare>
+  <SCVMMHost>NA</SCVMMHost>
+  <SCVMMLStorage>NA</SCVMMLStorage>
+  <SCVMMVirtualHardDiskName>Blank Disk - Large.vhdx</SCVMMVirtualHardDiskName>
+  <SCVMMNetworkName>MGMT</SCVMMNetworkName>
+  <SCVMMHostGroup>All Hosts</SCVMMHostGroup>
+  <SCVMMPortClassification>Host management</SCVMMPortClassification>
+ </SCVMM>
+</Settings>
